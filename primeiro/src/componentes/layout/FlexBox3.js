@@ -1,0 +1,24 @@
+import React from 'react'
+import {View,StyleSheet} from 'react-native'
+import Quadrado from './Quadrado'
+export default ()=>{
+    return(
+        <View style={style.flexV1}>
+             <Quadrado></Quadrado>
+             <Quadrado color="#f00"></Quadrado>
+             <Quadrado color="#0f0"></Quadrado>
+             <Quadrado color="#00f"></Quadrado>
+             <Quadrado color="#009"></Quadrado>
+        </View>
+    )
+}
+
+const style = StyleSheet.create({
+    flexV1:{
+        height:350,
+        width:'100%',
+        flexDirection:'row',
+        justifyContent:'flex-end',
+        backgroundColor:'#950',
+    }
+})

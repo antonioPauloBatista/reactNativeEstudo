@@ -1,0 +1,19 @@
+{
+
+	//Example:
+	"Compoenente Funcional": {
+		"scope": "javascript,typescript",
+		"prefix": "rea",
+		"body": [
+			"import React from 'react'",
+			"import {} from 'react-native'",
+			"$1",
+			"export default ()=>{",
+			"	return(",
+			"$2",
+			"	)",
+			"}"
+		],
+		"description": "Log output to console"
+	}
+}
